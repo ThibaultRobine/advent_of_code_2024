@@ -48,5 +48,5 @@ with open("input.txt") as f:
                         if init_bool:
                             n += int(line[i+4:i+4+lengh_num_1]) * int(line[i+5+lengh_num_1:i+5+lengh_num_1+lengh_num_2])
 
-print(n) #result 2389812
+print(n) #result 78683433
 
