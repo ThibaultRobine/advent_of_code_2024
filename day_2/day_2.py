@@ -23,4 +23,4 @@ with open("input.txt") as f:
     for line in f:
         n += any(test(x) for x in [line.split()[:i]+line.split()[i+1:] for i in range(len(line.split()))])
 
-print(n) #result 
+print(n) #result 349
